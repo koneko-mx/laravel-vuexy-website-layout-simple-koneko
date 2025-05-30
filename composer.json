@@ -1,0 +1,39 @@
+{
+    "name": "koneko/laravel-vuexy-website-layout-simple-koneko",
+    "description": "Minimal and flexible website template for Laravel Vuexy Website Admin. Ideal for MVPs, institutional websites, and fast deployment projects.",
+    "keywords": [
+        "laravel", "template", "minimal", "website-layout", "simple", "vuexy", "mvp",
+        "sitio institucional", "landing-page", "koneko", "mexico"
+    ],
+    "type": "library",
+    "license": "BUSL-1.1-custom",
+    "require": {
+        "php": "^8.2",
+        "koneko/laravel-vuexy-admin": "dev-develop",
+        "laravel/framework": "^11.31"
+    },
+    "autoload": {
+        "psr-4": {
+            "Koneko\\VuexyWebsiteLayoutSimpleKoneko\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Koneko\\VuexyWebsiteLayoutSimpleKoneko\\Providers\\VuexyWebsiteLayoutSimpleKonekoServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "Arturo Corro Pacheco",
+            "email": "arturo@koneko.mx"
+        }
+    ],
+    "support": {
+        "source": "https://github.com/koneko-mx/laravel-vuexy-website-layout-simple-koneko",
+        "issues": "https://github.com/koneko-mx/laravel-vuexy-website-layout-simple-koneko/issues"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
