@@ -20,16 +20,18 @@ return [
 
     // 📁 Recursos cargables: vistas, traducciones, migraciones
     'views' => [
-        'anonymous' => 'resources/views/templates/anonymous',
-        'landwind'  => 'resources/views/templates/landwind',
-        'limaa-m'   => 'resources/views/templates/limaa-m',
-        'maximus'   => 'resources/views/templates/maximus',
-        'notus'     => 'resources/views/templates/notus',
-        'samuel-coming-soon' => 'resources/views/templates/samuel-coming-soon',
+        'layout-simple-koneko-anonymous' => 'resources/views/templates/anonymous',
+        'layout-simple-koneko-landwind'  => 'resources/views/templates/landwind',
+        'layout-simple-koneko-limaa-m'   => 'resources/views/templates/limaa-m',
+        'layout-simple-koneko-maximus'   => 'resources/views/templates/maximus',
+        'layout-simple-koneko-notus'     => 'resources/views/templates/notus',
+        'layout-simple-koneko-samuel-coming-soon' => 'resources/views/templates/samuel-coming-soon',
+
         'vuexy-website-layout-simple-koneko' => 'resources/views/',
     ],
 
     // 🧩 Componentes Blade y Livewire
+    /*
     'bladeComponents' => [
         'anonymous' => 'resources/views/templates/anonymous/components',
         'landwind'  => 'resources/views/templates/landwind/components',
@@ -38,6 +40,7 @@ return [
         'notus'     => 'resources/views/templates/notus/components',
         'samuel-coming-soon' => 'resources/views/templates/samuel-coming-soon/components',
     ],
+    */
 
     // 📁 Publicar archivos
     'publishedFiles' => [

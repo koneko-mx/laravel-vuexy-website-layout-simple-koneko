@@ -16,7 +16,7 @@
                     </svg>
                 </div>Lander
             </div>
-            <x-limaa-m::menu-top />
+            <x-layout-simple-koneko-limaa-m::menu-top />
             <div class="hidden md:block">
                 <button type="button"
                     class=" py-3 px-8 text-sm bg-teal-500 hover:bg-teal-600 rounded text-white ">Start Free
@@ -1016,10 +1016,10 @@
                 </p>
             </div>
             <div class="flex-1 px-3">
-                <x-limaa-m::menu-footer />
+                <x-layout-simple-koneko-limaa-m::menu-footer />
             </div>
             <div class="flex-1 px-3">
-                <x-limaa-m::menu-footer />
+                <x-layout-simple-koneko-limaa-m::menu-footer />
             </div>
         </div>
     </footer>

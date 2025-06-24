@@ -13,7 +13,7 @@
             <div class="text-white font-bold text-2xl">
                 Demo
             </div>
-            <x-maximus::menu-top />
+            <x-layout-simple-koneko-maximus::menu-top />
         </nav>
 
         <!-- Hero Content -->
@@ -696,17 +696,17 @@
 
                 <!-- Products -->
                 <div>
-                    <x-maximus::menu-footer />
+                    <x-layout-simple-koneko-maximus::menu-footer />
                 </div>
 
                 <!-- Resources -->
                 <div>
-                    <x-maximus::menu-footer />
+                    <x-layout-simple-koneko-maximus::menu-footer />
                 </div>
 
                 <!-- Contact -->
                 <div>
-                    <x-maximus::menu-footer />
+                    <x-layout-simple-koneko-maximus::menu-footer />
                 </div>
 
                 <!-- Contact -->

@@ -19,7 +19,7 @@
                         <svg class="hidden w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
                     </button>
                 </div>
-                <x-landwind::menu-top />
+                <x-layout-simple-koneko-landwind::menu-top />
             </div>
         </nav>
     </header>
@@ -411,19 +411,19 @@
         <div class="max-w-screen-xl p-4 py-6 mx-auto lg:py-16 md:p-8 lg:p-10">
             <div class="grid grid-cols-2 gap-8 md:grid-cols-3 lg:grid-cols-5">
                 <div>
-                    <x-landwind::menu-footer />
+                    <x-layout-simple-koneko-landwind::menu-footer />
                 </div>
                 <div>
-                    <x-landwind::menu-footer />
+                    <x-layout-simple-koneko-landwind::menu-footer />
                 </div>
                 <div>
-                    <x-landwind::menu-footer />
+                    <x-layout-simple-koneko-landwind::menu-footer />
                 </div>
                 <div>
-                    <x-landwind::menu-footer />
+                    <x-layout-simple-koneko-landwind::menu-footer />
                 </div>
                 <div>
-                    <x-landwind::menu-footer />
+                    <x-layout-simple-koneko-landwind::menu-footer />
                 </div>
             </div>
             <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8">

@@ -1,3 +1,5 @@
-@vite([
-    'vendor/koneko/laravel-vuexy-website-layout-simple-koneko/resources/assets/templates/limaa-m/js/app.js'
-])
+<!-- Vendor -->
+@yield('vendor-script')
+
+<!-- Page Script -->
+@stack('page-script')

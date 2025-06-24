@@ -1,3 +1,7 @@
-@vite([
-    'vendor/koneko/laravel-vuexy-website-layout-simple-koneko/resources/assets/templates/maximus/css/app.css'
-])
+<!-- Vendor Styles -->
+@yield('vendor-style')
+
+<!-- Page Styles -->
+@stack('page-style')
+
+@vite('vendor/koneko/laravel-vuexy-website-layout-simple-koneko/resources/assets/css/maximus/app.css')

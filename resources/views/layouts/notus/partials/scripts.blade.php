@@ -1,28 +1,8 @@
-@vite([
-    'vendor/koneko/laravel-vuexy-website-layout-simple-koneko/resources/assets/templates/notus-tailwind/vendor/popper/popper.js',
-    'vendor/koneko/laravel-vuexy-website-layout-simple-koneko/resources/assets/templates/notus-tailwind/js/app.js',
-])
+<!-- Vendor -->
+@vite('vendor/koneko/laravel-vuexy-website-layout-simple-koneko/resources/assets/templates/notus-tailwind/vendor/popper/popper.js')
+@yield('vendor-script')
 
-<script>
-    /* Function for opning navbar on mobile */
-    function toggleNavbar(collapseID) {
-        document.getElementById(collapseID).classList.toggle("hidden");
-        document.getElementById(collapseID).classList.toggle("block");
-    }
+<!-- Page Script -->
+@stack('page-script')
 
-    /* Function for dropdowns */
-    function openDropdown(event, dropdownID) {
-        let element = event.target;
-
-        while (element.nodeName !== "A") {
-            element = element.parentNode;
-        }
-
-        Popper.createPopper(element, document.getElementById(dropdownID), {
-            placement: "bottom-start"
-        });
-
-        document.getElementById(dropdownID).classList.toggle("hidden");
-        document.getElementById(dropdownID).classList.toggle("block");
-    }
-</script>
+@vite('vendor/koneko/laravel-vuexy-website-layout-simple-koneko/resources/assets/js/notus/app.js')
