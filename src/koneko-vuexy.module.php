@@ -52,5 +52,9 @@ return [
             'resources/public/templates/notus'     => public_path('vendor/koneko-layout/notus'),
             'resources/public/templates/samuel-coming-soon' => public_path('vendor/koneko-layout/samuel-coming-soon'),
         ],
+        'assets-demo' => [
+            'resources/public/img' => public_path('vendor/vuexy-layout-simple-koneko/img'),
+        ],
     ],
+
 ];
