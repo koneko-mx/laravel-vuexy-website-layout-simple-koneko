@@ -1,7 +1,7 @@
 Business Source License 1.1 (Koneko Custom Edition)
 
 Licensor: Koneko Soluciones Tecnológicas
-Licensed Work: laravel-vuexy-admin
+Licensed Work: laravel-koneko-vuexy-admin
 License Effective Date: 2025-05-29
 Change Date: 2028-05-29 (3 years after the Effective Date)
 
@@ -11,7 +11,7 @@ Change Date: 2028-05-29 (3 years after the Effective Date)
 
 **"Licensor"** refers to Koneko Soluciones Tecnológicas, represented legally by Arturo Corro Pacheco (RFC: COPA810622V65).
 
-**"Licensed Work"** refers to the source code of the repository `koneko/laravel-vuexy-admin` hosted at [https://github.com/koneko-mx](https://github.com/koneko-mx) and [https://git.koneko.mx](https://git.koneko.mx).
+**"Licensed Work"** refers to the source code of the repository `koneko/laravel-koneko-vuexy-admin` hosted at [https://github.com/koneko-mx](https://github.com/koneko-mx) and [https://git.koneko.mx](https://git.koneko.mx).
 
 **"Change Date"** is the date on which this license automatically transitions to the MIT license.
 

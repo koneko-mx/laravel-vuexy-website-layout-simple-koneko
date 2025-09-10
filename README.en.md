@@ -8,15 +8,15 @@
 
 <p align="center">
     <a href="https://koneko.mx"><img src="https://img.shields.io/badge/Website-koneko.mx-blue" alt="Website"></a>
-    <a href="https://github.com/koneko-mx/laravel-vuexy-website-layout-simple-koneko"><img src="https://img.shields.io/github/license/koneko-mx/laravel-vuexy-website-layout-simple-koneko" alt="License"></a>
-    <a href="https://github.com/koneko-mx/laravel-vuexy-website-layout-simple-koneko/issues"><img src="https://img.shields.io/github/issues/koneko-mx/laravel-vuexy-website-layout-simple-koneko" alt="Issues"></a>
+    <a href="https://github.com/koneko-mx/laravel-koneko-layout-small-templates"><img src="https://img.shields.io/github/license/koneko-mx/laravel-koneko-layout-small-templates" alt="License"></a>
+    <a href="https://github.com/koneko-mx/laravel-koneko-layout-small-templates/issues"><img src="https://img.shields.io/github/issues/koneko-mx/laravel-koneko-layout-small-templates" alt="Issues"></a>
 </p>
 
 ---
 
 ## 📝 Description
 
-**Laravel Vuexy Website Layout: Simple Koneko** is a minimal, fast and flexible website template designed for integration with the [Laravel Vuexy Website Admin](https://github.com/koneko-mx/laravel-vuexy-website-admin) module. Ideal for MVPs, institutional websites, landing pages and rapid deployments.
+**Laravel Vuexy Website Layout: Simple Koneko** is a minimal, fast and flexible website template designed for integration with the [Laravel Vuexy Website Admin](https://github.com/koneko-mx/laravel-koneko-website-admin) module. Ideal for MVPs, institutional websites, landing pages and rapid deployments.
 
 This layout offers a clean structure, customizable banners and sections, and a plug-and-play approach for publishing content dynamically through Koneko’s ecosystem.
 
@@ -25,8 +25,8 @@ This layout offers a clean structure, customizable banners and sections, and a p
 ## 🚀 Quick Installation
 
 ```bash
-composer require koneko/laravel-vuexy-website-layout-simple-koneko:dev-develop
-php artisan vendor:publish --tag=vuexy-website-layout-simple-koneko-assets
+composer require koneko/laravel-koneko-layout-small-templates:dev-develop
+php artisan vendor:publish --tag=koneko-layout-small-templates-assets
 ```
 
 ---
@@ -49,7 +49,7 @@ resources/
 │   ├── notus/
 │   ├── maximus/
 │   ├── samuel-coming-soon/
-│   └── vuexy-website-layout-simple-koneko/
+│   └── koneko-layout-small-templates/
 ├── public/templates/
 └── img/module-cover.png
 ```
@@ -66,7 +66,7 @@ This package registers itself automatically in Koneko’s Vuexy Admin system usi
 
 * PHP `^8.2`
 * Laravel `^11.31`
-* [koneko/laravel-vuexy-website-admin](https://github.com/koneko-mx/laravel-vuexy-website-admin)
+* [koneko/laravel-koneko-website-admin](https://github.com/koneko-mx/laravel-koneko-website-admin)
 * Node + Vite for SCSS customization (optional but recommended)
 
 ---
@@ -81,8 +81,8 @@ This package is licensed under the [custom Business Source License 1.1](LICENSE)
 
 ## 📚 More Information
 
-* [Vuexy Website Admin Module](https://github.com/koneko-mx/laravel-vuexy-website-admin)
-* [Vuexy Admin Core](https://github.com/koneko-mx/laravel-vuexy-admin)
+* [Vuexy Website Admin Module](https://github.com/koneko-mx/laravel-koneko-website-admin)
+* [Vuexy Admin Core](https://github.com/koneko-mx/laravel-koneko-vuexy-admin)
 * [Documentation in Spanish](README.md)
 * [Koneko ST Official Website](https://koneko.mx)
 * [Contact Email](mailto:opensource@koneko.mx)

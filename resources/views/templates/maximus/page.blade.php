@@ -1,4 +1,4 @@
-@extends('vuexy-website-layout-simple-koneko::layouts.maximus.master')
+@extends('koneko-layout-small-templates::layouts.maximus.master')
 
 @section('header')
     <!-- Hero Section -->

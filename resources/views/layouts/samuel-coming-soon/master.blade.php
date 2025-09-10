@@ -7,13 +7,13 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    @include('vuexy-website-admin::layouts.base.header')
+    @include('koneko-website-admin::layouts.base.header')
 
-    @include('vuexy-website-layout-simple-koneko::layouts.samuel-coming-soon.partials.styles')
+    @include('koneko-layout-small-templates::layouts.samuel-coming-soon.partials.styles')
 </head>
 <body>
     @yield('content')
 
-    @include('vuexy-website-layout-simple-koneko::layouts.samuel-coming-soon.partials.scripts')
+    @include('koneko-layout-small-templates::layouts.samuel-coming-soon.partials.scripts')
 </body>
 </html>

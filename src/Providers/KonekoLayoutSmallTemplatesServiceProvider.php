@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Koneko\VuexyWebsiteLayoutSimpleKoneko\Providers;
+namespace Koneko\KonekoLayoutSmallTemplates\Providers;
 
 use Illuminate\Support\ServiceProvider;
-use Koneko\VuexyAdmin\Support\Traits\Modules\KonekoModuleBoots;
+use Koneko\KonekoVuexyAdmin\Support\Traits\Modules\KonekoModuleBoots;
 
-class VuexyWebsiteLayoutSimpleKonekoServiceProvider extends ServiceProvider
+class KonekoLayoutSmallTemplatesServiceProvider extends ServiceProvider
 {
     use KonekoModuleBoots;
 

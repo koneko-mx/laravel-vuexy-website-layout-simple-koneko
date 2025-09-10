@@ -7,15 +7,15 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    @include('vuexy-website-admin::layouts.base.header')
+    @include('koneko-website-admin::layouts.base.header')
 
-    @include('vuexy-website-layout-simple-koneko::layouts.landwind.partials.styles')
+    @include('koneko-layout-small-templates::layouts.landwind.partials.styles')
 </head>
 <body>
     @yield('header')
     @yield('content')
     @yield('footer')
 
-    @include('vuexy-website-layout-simple-koneko::layouts.landwind.partials.scripts')
+    @include('koneko-layout-small-templates::layouts.landwind.partials.scripts')
 </body>
 </html>

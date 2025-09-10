@@ -1,4 +1,4 @@
-@extends('vuexy-website-layout-simple-koneko::layouts.notus.master')
+@extends('koneko-layout-small-templates::layouts.notus.master')
 
 @section('header')
     <nav class="top-0 fixed z-50 w-full flex flex-wrap items-center justify-between px-2 py-3 navbar-expand-lg bg-white shadow">

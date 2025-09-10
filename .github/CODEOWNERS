@@ -1,4 +1,4 @@
-# CODEOWNERS para koneko/laravel-vuexy-admin
+# CODEOWNERS para koneko/laravel-koneko-vuexy-admin
 
 # Asignar todos los archivos a Arturo Corro Pacheco (mantenedor principal)
 *       @koneko-mx

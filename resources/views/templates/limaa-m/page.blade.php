@@ -1,4 +1,4 @@
-@extends('vuexy-website-layout-simple-koneko::layouts.limaa-m.master')
+@extends('koneko-layout-small-templates::layouts.limaa-m.master')
 
 @section('header')
     <header class="sticky top-0 bg-white shadow">

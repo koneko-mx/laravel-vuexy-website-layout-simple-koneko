@@ -1,4 +1,4 @@
-@extends('vuexy-website-layout-simple-koneko::layouts.landwind.master')
+@extends('koneko-layout-small-templates::layouts.landwind.master')
 
 @section('header')
     <header class="fixed w-full">

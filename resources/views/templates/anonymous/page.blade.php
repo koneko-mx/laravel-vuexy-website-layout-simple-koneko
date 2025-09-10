@@ -1,4 +1,4 @@
-@extends('vuexy-website-layout-simple-koneko::layouts.anonymous.master')
+@extends('koneko-layout-small-templates::layouts.anonymous.master')
 
 @section('header')
     <header class="text-gray-700 body-font border-b border-gray-200">

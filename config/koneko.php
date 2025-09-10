@@ -2,6 +2,6 @@
 
 return [
     'templates' => [
-        'laravel-vuexy-website-layout-simple-koneko' => 'vendor/koneko/laravel-vuexy-website-layout-simple-koneko/config/package.php',
+        'laravel-koneko-layout-small-templates' => 'vendor/koneko/laravel-koneko-layout-small-templates/config/package.php',
     ],
 ];

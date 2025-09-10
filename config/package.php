@@ -5,7 +5,7 @@ declare(strict_types=1);
 // Este archivo **NO se registra como config**, es usado por VuexyMenuRegistry
 
 return [
-    'id'        => 'vuexy-website-layout-simple-koneko',
+    'id'        => 'koneko-layout-small-templates',
     'name'      => 'Simple Koneko',
     'vendor'    => 'koneko',
     'version'   => '1.0.0',
@@ -19,7 +19,7 @@ return [
             'tags' => ['koneko', 'anonymous'],
             'meta' => [
                 'thumbnail' => 'vendor/koneko/layout-simple-koneko/assets/images/anonymous.png',
-                'preview_url' => 'https://demo.vuexy-website-layout-simple-koneko.com',
+                'preview_url' => 'https://demo.koneko-layout-small-templates.com',
             ]
         ],
         'landwind' => [
@@ -27,7 +27,7 @@ return [
             'tags' => ['koneko', 'landwind'],
             'meta' => [
                 'thumbnail' => 'vendor/koneko/layout-simple-koneko/assets/images/landwind.png',
-                'preview_url' => 'https://demo.vuexy-website-layout-simple-koneko.com',
+                'preview_url' => 'https://demo.koneko-layout-small-templates.com',
             ]
         ],
         'limaa-m' => [
@@ -35,7 +35,7 @@ return [
             'tags' => ['koneko', 'limaa-m'],
             'meta' => [
                 'thumbnail' => 'vendor/koneko/layout-simple-koneko/assets/images/limaa-m.png',
-                'preview_url' => 'https://demo.vuexy-website-layout-simple-koneko.com',
+                'preview_url' => 'https://demo.koneko-layout-small-templates.com',
             ]
         ],
         'maximus' => [
@@ -43,7 +43,7 @@ return [
             'tags' => ['koneko', 'maximus'],
             'meta' => [
                 'thumbnail' => 'vendor/koneko/layout-simple-koneko/assets/images/maximus.png',
-                'preview_url' => 'https://demo.vuexy-website-layout-simple-koneko.com',
+                'preview_url' => 'https://demo.koneko-layout-small-templates.com',
             ]
         ],
         'notus' => [
@@ -51,7 +51,7 @@ return [
             'tags' => ['koneko', 'notus'],
             'meta' => [
                 'thumbnail' => 'vendor/koneko/layout-simple-koneko/assets/images/notus.png',
-                'preview_url' => 'https://demo.vuexy-website-layout-simple-koneko.com',
+                'preview_url' => 'https://demo.koneko-layout-small-templates.com',
             ]
         ],
         'samuel-coming-soon' => [
@@ -59,7 +59,7 @@ return [
             'tags' => ['koneko', 'samuel-coming-soon'],
             'meta' => [
                 'thumbnail' => 'vendor/koneko/layout-simple-koneko/assets/images/samuel-coming-soon.png',
-                'preview_url' => 'https://demo.vuexy-website-layout-simple-koneko.com',
+                'preview_url' => 'https://tailwindflex.com/@samuel33/coming-soon-page-with-newsletter',
             ]
         ],
     ],

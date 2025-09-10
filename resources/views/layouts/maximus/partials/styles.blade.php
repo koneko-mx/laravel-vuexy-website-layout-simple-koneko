@@ -4,4 +4,4 @@
 <!-- Page Styles -->
 @stack('page-style')
 
-@vite('vendor/koneko/laravel-vuexy-website-layout-simple-koneko/resources/assets/css/maximus/app.css')
+@vite('vendor/koneko/laravel-koneko-layout-small-templates/resources/assets/css/maximus/app.css')

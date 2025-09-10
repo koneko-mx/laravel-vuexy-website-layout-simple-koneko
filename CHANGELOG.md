@@ -12,17 +12,17 @@ Este layout está en fase activa de desarrollo. No se ha publicado aún una vers
 **Añadido**
 
 - Estructura de layout minimalista para sitios web institucionales y MVP
-- Compatibilidad con el módulo `laravel-vuexy-website-admin`
+- Compatibilidad con el módulo `laravel-koneko-website-admin`
 - Variantes visuales integradas: `landwind`, `notus`, `maximus`, `anonymous`, `samuel-coming-soon`
 - Publicación de assets con `vendor:publish`
 - Vista `page.blade.php` base y componentes Blade por layout
 - Integración con el renderizado dinámico de páginas vía slug
-- Registro automático como layout visual dentro del ecosistema Vuexy Koneko
+- Registro automático como layout visual dentro del ecosistema Koneko Vuexy
 
 **Notas**
 
 - Esta versión no es estable y puede cambiar sin previo aviso
-- Se recomienda usar exclusivamente con la rama `dev-develop` de `laravel-vuexy-website-admin`
+- Se recomienda usar exclusivamente con la rama `dev-develop` de `laravel-koneko-website-admin`
 
 ---
 

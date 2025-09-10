@@ -71,7 +71,7 @@ component-root/
 ## 🧪 Factories
 
 - Todas las `factories` deben estar en `Database/factories/`.
-- Si se extiende un modelo (`Koneko\VuexyAdmin\Models\User`), usar `new (User::class)` dinámico.
+- Si se extiende un modelo (`Koneko\KonekoVuexyAdmin\Models\User`), usar `new (User::class)` dinámico.
 - Compatible con `SeederOrchestrator` y `config/seeder.php`.
 
 ---

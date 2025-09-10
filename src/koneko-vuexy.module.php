@@ -5,9 +5,9 @@ declare(strict_types=1);
 return [
     // 🌐 Identidad del Módulo
     'name' => 'Template Simple Koneko',
-    'description' => 'Plantilla Simple Koneko para el modulo vuexy-website-admin, banners, widgets y CSS personalizado.',
+    'description' => 'Plantilla Simple Koneko para el modulo koneko-website-admin, banners, widgets y CSS personalizado.',
     'type' => 'plugin',
-    'tags' => ['koneko-official', 'plantilla', 'banners', 'simple', 'css', 'template', 'vuexy-website-admin', 'website'],
+    'tags' => ['koneko-official', 'plantilla', 'banners', 'simple', 'css', 'template', 'koneko-website-admin', 'website'],
 
     // ⚙️ Namespace de configuraciones Koneko Vuexy Admin
     'componentNamespace' => 'website-layout-simple-koneko',
@@ -31,7 +31,7 @@ return [
         'layout-simple-koneko-maximus'   => 'resources/views/templates/maximus',
         'layout-simple-koneko-notus'     => 'resources/views/templates/notus',
         'layout-simple-koneko-samuel-coming-soon' => 'resources/views/templates/samuel-coming-soon',
-        'vuexy-website-layout-simple-koneko' => 'resources/views/',
+        'koneko-layout-small-templates' => 'resources/views/',
     ],
 
     // 🧩 Componentes Blade y Livewire
@@ -57,7 +57,7 @@ return [
             'resources/public/templates/samuel-coming-soon' => public_path('vendor/koneko-layout/samuel-coming-soon'),
         ],
         'assets-demo' => [
-            'resources/public/img' => public_path('vendor/vuexy-layout-simple-koneko/img'),
+            'resources/public/img' => public_path('vendor/koneko-layout-small-templates/img'),
         ],
     ],
 ];

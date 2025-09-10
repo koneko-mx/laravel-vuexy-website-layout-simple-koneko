@@ -20,7 +20,7 @@ Nos comprometemos a responder dentro de **5 días hábiles**.
 
 Este procedimiento aplica únicamente al paquete:
 
-- `koneko/laravel-vuexy-admin`  
+- `koneko/laravel-koneko-vuexy-admin`  
 Y a sus repositorios relacionados dentro del ecosistema oficial Koneko.
 
 ## ✅ Reconocimientos

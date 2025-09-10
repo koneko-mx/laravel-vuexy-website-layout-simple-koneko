@@ -7,9 +7,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    @include('vuexy-website-admin::layouts.base.header')
+    @include('koneko-website-admin::layouts.base.header')
 
-    @include('vuexy-website-layout-simple-koneko::layouts.maximus.partials.styles')
+    @include('koneko-layout-small-templates::layouts.maximus.partials.styles')
 
     <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -36,6 +36,6 @@
         </button>
     </div>
 
-    @include('vuexy-website-layout-simple-koneko::layouts.maximus.partials.scripts')
+    @include('koneko-layout-small-templates::layouts.maximus.partials.scripts')
 </body>
 </html>
