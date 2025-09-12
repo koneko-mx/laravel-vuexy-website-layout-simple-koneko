@@ -4,13 +4,13 @@ declare(strict_types=1);
 
 return [
     // 🌐 Identidad del Módulo
-    'name' => 'Template Simple Koneko',
+    'name' => 'Koneko Layout Small Templates',
     'description' => 'Plantilla Simple Koneko para el modulo koneko-website-admin, banners, widgets y CSS personalizado.',
     'type' => 'plugin',
     'tags' => ['koneko-official', 'plantilla', 'banners', 'simple', 'css', 'template', 'koneko-website-admin', 'website'],
 
     // ⚙️ Namespace de configuraciones Koneko Vuexy Admin
-    'componentNamespace' => 'website-layout-simple-koneko',
+    'componentNamespace' => 'layout-small-templates',
 
     // 🧠 Metadatos visuales para UI del gestor
     'ui' => [
@@ -25,26 +25,15 @@ return [
 
     // 📁 Recursos cargables: vistas, traducciones, migraciones
     'views' => [
-        'layout-simple-koneko-anonymous' => 'resources/views/templates/anonymous',
-        'layout-simple-koneko-landwind'  => 'resources/views/templates/landwind',
-        'layout-simple-koneko-limaa-m'   => 'resources/views/templates/limaa-m',
-        'layout-simple-koneko-maximus'   => 'resources/views/templates/maximus',
-        'layout-simple-koneko-notus'     => 'resources/views/templates/notus',
-        'layout-simple-koneko-samuel-coming-soon' => 'resources/views/templates/samuel-coming-soon',
+        'layout-small-templates-anonymous' => 'resources/views/templates/anonymous',
+        'layout-small-templates-landwind'  => 'resources/views/templates/landwind',
+        'layout-small-templates-limaa-m'   => 'resources/views/templates/limaa-m',
+        'layout-small-templates-maximus'   => 'resources/views/templates/maximus',
+        'layout-small-templates-notus'     => 'resources/views/templates/notus',
+        'layout-small-templates-samuel-coming-soon' => 'resources/views/templates/samuel-coming-soon',
+
         'koneko-layout-small-templates' => 'resources/views/',
     ],
-
-    // 🧩 Componentes Blade y Livewire
-    /*
-    'bladeComponents' => [
-        'anonymous' => 'resources/views/templates/anonymous/components',
-        'landwind'  => 'resources/views/templates/landwind/components',
-        'limaa-m'   => 'resources/views/templates/limaa-m/components',
-        'maximus'   => 'resources/views/templates/maximus/components',
-        'notus'     => 'resources/views/templates/notus/components',
-        'samuel-coming-soon' => 'resources/views/templates/samuel-coming-soon/components',
-    ],
-    */
 
     // 📁 Publicar archivos
     'publishedFiles' => [

@@ -18,7 +18,7 @@ return [
             'name' => 'Anonymous',
             'tags' => ['koneko', 'anonymous'],
             'meta' => [
-                'thumbnail' => 'vendor/koneko/layout-simple-koneko/assets/images/anonymous.png',
+                'thumbnail' => 'vendor/koneko/layout-small-templates/assets/images/anonymous.png',
                 'preview_url' => 'https://demo.koneko-layout-small-templates.com',
             ]
         ],
@@ -26,7 +26,7 @@ return [
             'name' => 'Landwind',
             'tags' => ['koneko', 'landwind'],
             'meta' => [
-                'thumbnail' => 'vendor/koneko/layout-simple-koneko/assets/images/landwind.png',
+                'thumbnail' => 'vendor/koneko/layout-small-templates/assets/images/landwind.png',
                 'preview_url' => 'https://demo.koneko-layout-small-templates.com',
             ]
         ],
@@ -34,7 +34,7 @@ return [
             'name' => 'Limaa-M',
             'tags' => ['koneko', 'limaa-m'],
             'meta' => [
-                'thumbnail' => 'vendor/koneko/layout-simple-koneko/assets/images/limaa-m.png',
+                'thumbnail' => 'vendor/koneko/layout-small-templates/assets/images/limaa-m.png',
                 'preview_url' => 'https://demo.koneko-layout-small-templates.com',
             ]
         ],
@@ -42,7 +42,7 @@ return [
             'name' => 'Maximus',
             'tags' => ['koneko', 'maximus'],
             'meta' => [
-                'thumbnail' => 'vendor/koneko/layout-simple-koneko/assets/images/maximus.png',
+                'thumbnail' => 'vendor/koneko/layout-small-templates/assets/images/maximus.png',
                 'preview_url' => 'https://demo.koneko-layout-small-templates.com',
             ]
         ],
@@ -50,7 +50,7 @@ return [
             'name' => 'Notus',
             'tags' => ['koneko', 'notus'],
             'meta' => [
-                'thumbnail' => 'vendor/koneko/layout-simple-koneko/assets/images/notus.png',
+                'thumbnail' => 'vendor/koneko/layout-small-templates/assets/images/notus.png',
                 'preview_url' => 'https://demo.koneko-layout-small-templates.com',
             ]
         ],
@@ -58,7 +58,7 @@ return [
             'name' => 'Samuel Coming-Soon',
             'tags' => ['koneko', 'samuel-coming-soon'],
             'meta' => [
-                'thumbnail' => 'vendor/koneko/layout-simple-koneko/assets/images/samuel-coming-soon.png',
+                'thumbnail' => 'vendor/koneko/layout-small-templates/assets/images/samuel-coming-soon.png',
                 'preview_url' => 'https://tailwindflex.com/@samuel33/coming-soon-page-with-newsletter',
             ]
         ],

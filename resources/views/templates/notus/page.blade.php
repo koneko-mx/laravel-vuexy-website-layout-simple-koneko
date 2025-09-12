@@ -16,7 +16,7 @@
                             <i class="text-blueGray-400 far fa-file-alt text-lg leading-lg mr-2"></i> Docs </a>
                     </li>
                 </ul>
-                <x-layout-simple-koneko-notus::menu-top />
+                <x-layout-small-templates-notus::menu-top />
             </div>
         </div>
     </nav>
@@ -377,10 +377,10 @@
                 <div class="w-full lg:w-6/12 px-4">
                     <div class="flex flex-wrap items-top mb-6">
                         <div class="w-full lg:w-4/12 px-4 ml-auto">
-                            <x-layout-simple-koneko-notus::menu-footer />
+                            <x-layout-small-templates-notus::menu-footer />
                         </div>
                         <div class="w-full lg:w-4/12 px-4">
-                            <x-layout-simple-koneko-notus::menu-footer />
+                            <x-layout-small-templates-notus::menu-footer />
                         </div>
                     </div>
                 </div>

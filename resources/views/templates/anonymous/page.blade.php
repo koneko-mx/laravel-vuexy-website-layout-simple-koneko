@@ -9,7 +9,7 @@
                 </svg>
                 <span class="ml-3 text-xl">TAILBLOCKS</span>
             </a>
-            <x-layout-simple-koneko-anonymous::menu-top />
+            <x-layout-small-templates-anonymous::menu-top />
             <button class="inline-flex items-center bg-gray-200 border-0 py-1 px-3 focus:outline-none hover:bg-gray-300 rounded text-base mt-4 md:mt-0">Button
                 <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
                     <path d="M5 12h14M12 5l7 7-7 7"></path>
@@ -576,22 +576,22 @@
         <div class="container px-5 py-24 mx-auto">
             <div class="flex flex-wrap md:text-left text-center -mb-10 -mx-4">
                 <div class="lg:w-1/6 md:w-1/2 w-full px-4">
-                    <x-layout-simple-koneko-anonymous::menu-footer />
+                    <x-layout-small-templates-anonymous::menu-footer />
                 </div>
                 <div class="lg:w-1/6 md:w-1/2 w-full px-4">
-                    <x-layout-simple-koneko-anonymous::menu-footer />
+                    <x-layout-small-templates-anonymous::menu-footer />
                 </div>
                 <div class="lg:w-1/6 md:w-1/2 w-full px-4">
-                    <x-layout-simple-koneko-anonymous::menu-footer />
+                    <x-layout-small-templates-anonymous::menu-footer />
                 </div>
                 <div class="lg:w-1/6 md:w-1/2 w-full px-4">
-                    <x-layout-simple-koneko-anonymous::menu-footer />
+                    <x-layout-small-templates-anonymous::menu-footer />
                 </div>
                 <div class="lg:w-1/6 md:w-1/2 w-full px-4">
-                    <x-layout-simple-koneko-anonymous::menu-footer />
+                    <x-layout-small-templates-anonymous::menu-footer />
                 </div>
                 <div class="lg:w-1/6 md:w-1/2 w-full px-4">
-                    <x-layout-simple-koneko-anonymous::menu-footer />
+                    <x-layout-small-templates-anonymous::menu-footer />
                 </div>
             </div>
         </div>
