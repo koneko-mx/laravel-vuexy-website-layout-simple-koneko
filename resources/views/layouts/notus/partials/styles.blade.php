@@ -1,5 +1,7 @@
 <!-- Vendor Styles -->
-@vite('vendor/koneko/laravel-koneko-layout-small-templates/resources/assets/notus/vendor/fonts/fontawesome.scss')
+@vite([
+    //'vendor/koneko/laravel-koneko-layout-small-templates/resources/assets/notus/vendor/fonts/fontawesome.scss'
+])
 @yield('vendor-style')
 
 <!-- Page Styles -->
