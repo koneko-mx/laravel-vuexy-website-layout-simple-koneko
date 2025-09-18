@@ -48,7 +48,7 @@
         ->all();
 
     // Fondo (puedes apuntar a otro asset en tu paquete)
-    $bgUrl = asset('vendor/koneko-layout-small-templates/img/bg-maintenance.mp4');
+    $bgUrl = asset('vendor/koneko/layout-sm-tpl/img/bg-maintenance.mp4');
 @endphp
 
 <section
@@ -61,11 +61,11 @@
         muted
         loop
         playsinline
-        poster="{{ asset('vendor/koneko-layout-small-templates/img/bg-coming-soon.png') }}"
+        poster="{{ asset('vendor/koneko/layout-sm-tpl/img/bg-coming-soon.png') }}"
         class="absolute inset-0 w-full h-full object-cover"
     >
-        <source src="{{ asset('vendor/koneko-layout-small-templates/img/bg-maintenance.webm') }}" type="video/webm">
-        <source src="{{ asset('vendor/koneko-layout-small-templates/img/bg-maintenance.mp4') }}" type="video/mp4">
+        <source src="{{ asset('vendor/koneko/layout-sm-tpl/img/bg-maintenance.webm') }}" type="video/webm">
+        <source src="{{ asset('vendor/koneko/layout-sm-tpl/img/bg-maintenance.mp4') }}" type="video/mp4">
         {{-- fallback imagen si no soporta video --}}
         Tu navegador no soporta video en HTML5.
     </video>

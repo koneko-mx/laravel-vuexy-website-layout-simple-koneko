@@ -27,7 +27,7 @@
     }
 
     // Fondo del template (puedes cambiar por setting/asset del sitio)
-    $bgUrl = asset('vendor/koneko-layout-small-templates/img/bg-coming-soon.png');
+    $bgUrl = asset('vendor/koneko/layout-sm-tpl/img/bg-coming-soon.png');
 @endphp
 
 <section

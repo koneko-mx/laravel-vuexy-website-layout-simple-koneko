@@ -7,5 +7,13 @@
     @vite('vendor/koneko/laravel-koneko-website-admin/resources/css/kna-chat.css')
 @endif
 
-<!-- Page Styles -->
-@stack('page-style')
+<!-- Vendor Styles -->
+@yield('vendor-style')
+
+@if(($_chat['provider'] ?? 'none') === 'whatsapp')
+    @vite('vendor/koneko/laravel-koneko-website-admin/resources/css/kna-chat.css')
+@endif
+
+@auth
+    @vite('vendor/koneko/laravel-koneko-website-admin/resources/css/kna-admin.css')
+@endauth

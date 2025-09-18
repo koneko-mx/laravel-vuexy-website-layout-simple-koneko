@@ -48,7 +48,7 @@
         ->all();
 
     // Fondo (puedes apuntar a otro asset en tu paquete)
-    $bgUrl = asset('vendor/koneko-layout-small-templates/img/bg-maintenance.jpg');
+    $bgUrl = asset('vendor/koneko/layout-sm-tpl/img/bg-maintenance.jpg');
 @endphp
 
 <section
