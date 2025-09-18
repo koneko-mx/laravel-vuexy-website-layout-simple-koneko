@@ -14,6 +14,8 @@
 <body>
     @yield('content')
 
+    <x-koneko-website-admin::chat.float offsetY="64px" offsetYSm="20px" />
+
     @include('koneko-layout-small-templates::layouts.samuel-coming-soon.partials.scripts')
 </body>
 </html>
